@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.hood{
+    background-image: url(bg-header-desktop.png);
+    
+}
+h3{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#img1{
+    width: 600px;
+    height: 350px;
+
+}
+#img2{
+    width: 750px;
+    height: 350px;
+ 
+}
+.good{
+    
+}
+button{
+    border-radius: 25px 25px 25px 25px;
+    width: 220px;
+    height: 65px;
+    border: none;
+}
+#btn1{
+    color: wheat;
+    background-color: green;
+}
+#btn2{
+     color: wheat;
+     background-color: blue;
+}
+.food{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.container3{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+}
+div{
+    padding: 20px;
+}
+footer{
+    background-color: whitesmoke;
+}
